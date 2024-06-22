@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
- * @title Contract of the ETHSeoul2024 Hackathon
+ * @title Contract of the MAHA Hackathon
  * @author @cosmodude
  * @notice ERC20 token 
  */
