@@ -23,7 +23,7 @@ contract TuneToken is ERC20, Ownable, ERC20Permit{
      * @param to The address of the recipient
      * @param amount Amount of tokens (with 2 decimals)
      */
-    function mint(address to, uint256 amount) external  {
+    function mint(address to, uint256 amount) external onlyOwner()  {
         _mint(to, amount);
     }
 }

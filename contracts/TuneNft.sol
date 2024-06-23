@@ -19,7 +19,7 @@ contract TuneNft is ERC721, ERC721Burnable, Ownable {
         Ownable(initialOwner)
     {}
 
-    function safeMint(address to) public {
+    function safeMint(address to) public onlyOwner() {
         uint256 tokenId = _nextTokenId++;
         _safeMint(to, tokenId);
     }
