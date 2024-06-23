@@ -112,6 +112,14 @@ const config: HardhatUserConfig = {
         },
         customChains: [
             {
+                network: "baseSepolia",
+                chainId: 84532,
+                urls: {
+                    apiURL: "https://base-sepolia.blockscout.com/api",
+                    browserURL: "https://sepolia-explorer.base.org",
+                },
+            },
+            {
                 network: "spicy",
                 chainId: 88882,
                 urls: {
